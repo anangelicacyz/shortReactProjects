@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  background-color: #1b1b32;
+}
+#root{
+  height: 100vh;
+}
+.App{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+  padding-top: 25px;
+  height: 100vh;
+
+}
+.logo-container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.logo{
+  height: 100px;
+  color: white;
+  font-size: 50px;
+}
+.principal-container{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
